@@ -13,9 +13,5 @@ aPlusLogin.navigationOptions = {header: null};
 
 export const applyCustomCode = externalCodeSetup => {
 	externalCodeSetup.navigationApi.replaceScreenComponent("LoginScreen", aPlusLogin);
-
-	externalCodeSetup.settingsScreenApi.setSettingsListFilter((oldTabs, props) => {
-		console.log( oldTabs )
-	});
 };
 
